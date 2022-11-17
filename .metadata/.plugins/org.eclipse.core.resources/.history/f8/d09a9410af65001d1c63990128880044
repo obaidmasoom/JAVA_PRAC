@@ -1,0 +1,26 @@
+package in.obaid.arrays;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class arrays65 {
+	// 5. Write a program to add first list into the second list
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<String> persons = new ArrayList<String>();
+		persons.add("obaid");
+		persons.add("sayyad");
+
+		ArrayList<String> personlist2 = new ArrayList<String>();
+		personlist2.add("sai");
+		personlist2.add("umair");
+		personlist2.add("ibrahim");
+
+		for (int i = 0; i < persons.size(); i++) {
+			System.out.println(persons.get(i));
+
+			System.out.println(persons.get(i));
+		}
+	}
+}

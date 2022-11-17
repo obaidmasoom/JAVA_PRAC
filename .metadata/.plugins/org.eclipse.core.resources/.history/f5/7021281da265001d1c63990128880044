@@ -1,0 +1,21 @@
+package in.obaid.stringmanipulation;
+
+import java.util.Scanner;
+
+public class Stringmanipulation51 {
+	public static void main(String[] args) {
+		// String Concatenation
+		Scanner console = new Scanner(System.in);
+		String input1 = console.nextLine();
+		String input2 = console.nextLine();
+		console.close();
+		String str1 = "Rock";
+		String str2 = "Star";
+		// Method 1 : Using concat
+		String str3 = str1.concat(str2);
+		System.out.println(str3);
+		// Method 2 : Using "+" operator
+		String str4 = str1 + str2;
+		System.out.println(str4);
+	}
+}

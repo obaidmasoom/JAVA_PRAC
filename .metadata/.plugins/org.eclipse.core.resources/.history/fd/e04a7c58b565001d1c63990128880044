@@ -1,0 +1,15 @@
+package in.obaid.stringmanipulation;
+
+public class stringmanipulation54 {
+	  public static void main(String args[]) {
+
+	        // Input character and string
+	        String str = " obaid";
+	        String finalString = "";
+	        for (int i = 1; i <= 15; i++) {
+	            finalString = finalString.concat("X");
+	        }
+	        System.out.println(finalString.concat(str));
+	    }
+	}
+}

@@ -1,0 +1,30 @@
+package in.obaid.operator;
+
+import java.util.Scanner;
+
+public class operator75 {
+	public static void main(String args[]) {
+		int x, y;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter the Value of x : ");
+		x = scan.nextInt();
+		System.out.print("Enter the Value of y : ");
+		y = scan.nextInt();
+
+		if (x > y) {
+			System.out.println("x>y : " + (x > y));
+
+		}
+		if (x < y) {
+			System.out.println("x<y : " + (x < y));
+
+		}
+		if (x >= y) {
+			System.out.println("x>=y : " + (x >= y));
+
+		}
+		if (x >= y) {
+			System.out.println("x<=y : " + (x <= y));
+		}
+	}
+}

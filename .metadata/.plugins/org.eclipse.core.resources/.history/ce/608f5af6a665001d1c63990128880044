@@ -1,0 +1,17 @@
+package in.obaid.arrays;
+
+import java.util.*;
+import java.util.Scanner;
+
+public class arrays61 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<String> persons = new ArrayList<String>();
+		persons.add("Betty Snyder");
+		persons.add("Frances Spence");
+		persons.add("Kay McNulty");
+		persons.add("Marlyn Wescoff");
+		persons.add("Ruth Lichterman");
+
+	}
+}

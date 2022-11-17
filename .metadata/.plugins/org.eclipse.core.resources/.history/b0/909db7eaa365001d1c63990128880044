@@ -1,0 +1,27 @@
+package in.obaid.stringmanipulation;
+
+import java.util.Scanner;
+
+public class stringmanipulation53 {
+	public static void main(String args[]) {
+		String s1 = "javatpoint";
+		String s2 = "python";
+		
+		
+		Scanner console = new Scanner(System.in);
+		System.out.println("Enter Name 1: ");
+		String input1 = console.nextLine();
+		System.out.println("Enter Name 2: ");
+		String input2 = console.nextLine();
+		console.close();
+		System.out.println("string  Name 1 length is: " + input1.length());
+		System.out.println("string  Name 2 length is: " + input2.length());
+		if (input1.length()> input2.length()) {
+			System.out.println("string  Namefuckkkkk 1 length is: " + input1.length());
+		}
+		else {
+			System.out.println("s 1 length is: " + input2.length());
+		}
+		
+	}
+}
